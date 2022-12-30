@@ -30,9 +30,17 @@ func main() {
 	// reallocates memory and allows all values to be accomodated
 	highScores = append(highScores, 555, 356, 432)
 	fmt.Println(highScores)
-	
+
 	fmt.Println("Is the slice sorted? ", sort.IntsAreSorted(highScores))
 	sort.Ints(highScores)
 	fmt.Println(highScores)
 	fmt.Println("Is the slice sorted? ", sort.IntsAreSorted(highScores))
+
+	// how to remove a value from a slice based on index
+	var courses = []string{"reactjs", "javascript", "swift", "python", "ruby"}
+	fmt.Println(courses)
+	var index int = 2
+	courses = append(courses[:index], courses[index+1:]...)
+	fmt.Println(courses)
+
 }
