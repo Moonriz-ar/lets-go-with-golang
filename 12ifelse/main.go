@@ -23,4 +23,16 @@ func main() {
 	} else {
 		fmt.Println("Num is not less than 10")
 	}
+
+	// you can have one initialization statement before the conditional statement.
+	// the scope of the variables defined in this initialization statement are only available inside the block of the defining if
+	if x := computedValue(); x > 10 {
+		fmt.Println("x is greater than 10")
+	} else {
+		fmt.Println("x is less than 10")
+	}
+}
+
+func computedValue() int {
+	return 1 + 2
 }
