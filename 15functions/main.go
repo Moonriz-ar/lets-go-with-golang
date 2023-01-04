@@ -30,3 +30,10 @@ func addAllNumbers(numbers ...int) int {
 
 	return total
 }
+
+// multi-value return
+
+// SumAndProduct returns result of a + b and a * b
+func SumAndProduct(a, b int) (int, int) {
+	return a + b, a * b
+}
