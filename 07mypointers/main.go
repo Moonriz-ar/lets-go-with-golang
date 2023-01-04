@@ -6,7 +6,7 @@ func main() {
 	fmt.Println("Welcome to a class on pointers")
 
 	// & gets the pointer address
-	// * retries value according to pointer address
+	// * retrieves value according to pointer address
 
 	var number *int
 	fmt.Println("Value of number is ", number) // points to nothing, pointer == nil
