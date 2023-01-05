@@ -19,4 +19,5 @@ use (
 	./16methods
 	./17nestingStructs
 	./18anonymousNestedStructs
+	./19jsonMarshal
 )
