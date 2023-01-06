@@ -22,4 +22,7 @@ use (
 	./19jsonMarshal
 	./20structPractice
 	./21packages
+	./22interface/why_interface
+	./22interface/pointer_value
+	./22interface/null_interface
 )
