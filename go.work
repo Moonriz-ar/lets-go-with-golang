@@ -20,4 +20,5 @@ use (
 	./17nestingStructs
 	./18anonymousNestedStructs
 	./19jsonMarshal
+	./20structPractice
 )
